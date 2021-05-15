@@ -24,7 +24,19 @@ The percentage of nulls was great. I had to drop a lot of columns due to nulls o
 
 I also filled lots of nulls based on other columns, as well as using regex to get information from the description. 
 
+<p>&nbsp;</p> 
 <p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
 
  The most notorius charts are density of the price, the price per place name and a worcloud chart of the descriptions. 
  
