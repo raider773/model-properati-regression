@@ -14,7 +14,11 @@ The project is divided into five notebooks :
 - The last notebook is just the the test for the API, making requests with different features and getting the prediction.
 
 
-<img align="left" src="https://user-images.githubusercontent.com/70241561/118366162-f4ee6f80-b575-11eb-91a1-d4c935805c53.png"> 
+<img align="left" src="https://user-images.githubusercontent.com/70241561/118366162-f4ee6f80-b575-11eb-91a1-d4c935805c53.png"> \
+\
+\
+\
+\
 
 
 
