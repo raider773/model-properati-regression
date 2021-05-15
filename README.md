@@ -98,10 +98,13 @@ The place-name is what most affect prediction
 -------------------
 
 
+Finally i used flask for the deployment of my model.
+
+![image](https://user-images.githubusercontent.com/70241561/118370009-194d4a80-b57c-11eb-8ede-ef87767c0d33.png)
 
 
 
-
+![image](https://user-images.githubusercontent.com/70241561/118370019-223e1c00-b57c-11eb-8a4c-961571735b16.png)
 
 
 
