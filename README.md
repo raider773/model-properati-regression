@@ -69,8 +69,29 @@ Next i did some feature importance with a Random Forest and an Extra Trees. I tr
 
 ![image](https://user-images.githubusercontent.com/70241561/118369428-b5298700-b579-11eb-9d5c-eb08a93eaf94.png)
 
-I also added quite a few features gathering information form teh description, as well as adding clusters as a new variable. I used k-means with two clsuters to group the observations, and then used those clsuter to see if the prediction would improve. I selected 2 clusters after analysing the square distances,silhouette and calinski_harabasz score, as well as doing some hierarchical clustering
+I also added quite a few features gathering information form the description, as well as adding clusters as a new variable. I used k-means with two clsuters to group the observations, and then used those clsuter to see if the prediction would improve. I selected 2 clusters after analysing the square distances,silhouette and calinski_harabasz score, as well as doing some hierarchical clustering
 
+-------------
+
+After training some models, namely a Lasso, Random Forest, ADABoost, XGBOOST and an ANN, I choose the random forest, both because of scores and because of simplicity.\
+Then i analysed the selected model to see what influence a prediction the most. 
+
+![image](https://user-images.githubusercontent.com/70241561/118369654-9081df00-b57a-11eb-8875-7bb167493628.png)
+
+
+![image](https://user-images.githubusercontent.com/70241561/118369664-9aa3dd80-b57a-11eb-9a4a-4a34582f9d8e.png)
+
+
+![image](https://user-images.githubusercontent.com/70241561/118369667-a1325500-b57a-11eb-8b15-f4869ad54ba0.png)
+
+
+![image](https://user-images.githubusercontent.com/70241561/118369673-a8f1f980-b57a-11eb-8711-1e282566e706.png)
+
+
+![image](https://user-images.githubusercontent.com/70241561/118369680-b0190780-b57a-11eb-92e8-eb06c535da39.png)
+
+
+The place-name is what most affect prediction
 
 
 
