@@ -22,12 +22,12 @@ The project is divided into five notebooks :
 The percentage of nulls was great. I had to drop a lot of columns due to nulls or not giving any information.
 
 
-I also filled lots of nulls based on other columns, as well as using regex to get information from the description.
+I also filled lots of nulls based on other columns, as well as using regex to get information from the description. <br />
 
 
 
 
-The most notorius charts are density of the price, the price per place name and a worcloud chart of the descriptions. <br />
+The most notorius charts are density of the price, the price per place name and a worcloud chart of the descriptions. 
 
 
 
