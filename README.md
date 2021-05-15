@@ -86,13 +86,10 @@ Then i analysed the selected model to see what influence a prediction the most u
 
 
 ![image](https://user-images.githubusercontent.com/70241561/118369673-a8f1f980-b57a-11eb-8711-1e282566e706.png)
-
 The randomized search best parameters
 
 
 ![image](https://user-images.githubusercontent.com/70241561/118369680-b0190780-b57a-11eb-92e8-eb06c535da39.png)
-
-
 The place-name is what most affect prediction
 
 
