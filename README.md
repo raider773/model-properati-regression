@@ -25,7 +25,7 @@ The project is divided into five notebooks :
 The percentage of nulls was great. I had to drop a lot of columns due to nulls or not giving any information.
 
 
-I also filled lots of nulls based on other columns, as well as using regex to get information from the description. 
+I also filled lots of nulls based on other columns, as well as using regex to get information from the description: 
 
 <p>&nbsp;</p> 
 <p>&nbsp;</p>
@@ -40,8 +40,7 @@ I also filled lots of nulls based on other columns, as well as using regex to ge
 
 
  The most notorius charts are density of the price, the price per place name and a worcloud chart of the descriptions. 
- <p>&nbsp;</p>
- 
+ <p>&nbsp;</p> 
  
 ![image](https://user-images.githubusercontent.com/70241561/118368493-a7273680-b578-11eb-89ea-6feecc8b6432.png)
 
