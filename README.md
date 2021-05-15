@@ -16,6 +16,11 @@ The project is divided into five notebooks :
 
 <img align="left" src="https://user-images.githubusercontent.com/70241561/118366162-f4ee6f80-b575-11eb-91a1-d4c935805c53.png"> 
 
+
+
+
+
+
 The percentage of nulls was great. I had to drop a lot of columns due to nulls or not giving any information. I also filled lots of nulls based on other columns, as well as using regex to get information from the description.
 
 
