@@ -14,7 +14,7 @@ The project is divided into five notebooks :
 - The last notebook is just the the test for the API, making requests with different features and getting the prediction.
 
 
-<img align="left" src="https://user-images.githubusercontent.com/70241561/118366162-f4ee6f80-b575-11eb-91a1-d4c935805c53.png"> 
+<img align="left"  width="100" height="100" src="https://user-images.githubusercontent.com/70241561/118366162-f4ee6f80-b575-11eb-91a1-d4c935805c53.png"> 
 
 
 
@@ -33,12 +33,6 @@ The most notorius charts are density of the price, the price per place name and 
 
 
 
-![image](https://user-images.githubusercontent.com/70241561/118367003-f9675800-b576-11eb-9733-f71fc3dc3e5d.png)
-
-This chart represents the most frecuent words in descriptions of properties. 
-There are quite intresting things here.For example, Al frente("front") means the apartment faces the street. 
-We can deduct most apartments face the street and not the otehr way. Iluminated is something that appears quite often,
-maybe because it makes an impact in buyers. Things liek air conditioning, hot water or suitable professional are also somewhat frecuent. We can see how descriptiosn are written in this city and also what people want to see more when buying houses in Capital Federal
 
 
 
