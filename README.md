@@ -37,7 +37,7 @@ I also filled lots of nulls based on other columns, as well as using regex to ge
 <p>&nbsp;</p>
 
 
-
+-------------
 
  The most notorius charts are density of the price, the price per place name and a worcloud chart of the descriptions. 
  
@@ -62,6 +62,8 @@ This chart represents the most frecuent words in descriptions of properties. The
 Things like air conditioning, hot water or suitable professional are also somewhat frecuent. We can see how descriptions are written in this city and also what people want to see more when buying houses in Capital Federal
 
 <p>&nbsp;</p> 
+
+-------------
 
 Next i did some feature importance with a Random Forest and an Extra Trees. I trained them without the place name. As i already knew the place name was a big factor on predicting the prices, i wanted to know how the other variables affect the prediction. We can see surface, rooms and suite are quite important. Also the len of the description aparently is also important, but i will not use it in the final model since thats not concrete data.
 
