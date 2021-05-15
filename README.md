@@ -13,6 +13,9 @@ The project is divided into five notebooks :
 - In the fourth notebook i created a Flask API to implement my model. The api transforms de data to fit my model and then returns the price prediction.
 - The last notebook is just the the test for the API, making requests with different features and getting the prediction.
 
+<p>&nbsp;</p>
+
+
 
 <img align="left"  width="300" height="400" src="https://user-images.githubusercontent.com/70241561/118366162-f4ee6f80-b575-11eb-91a1-d4c935805c53.png"> 
 
@@ -37,7 +40,9 @@ I also filled lots of nulls based on other columns, as well as using regex to ge
 
 
  The most notorius charts are density of the price, the price per place name and a worcloud chart of the descriptions. 
- 
+ <p>&nbsp;</p>
+![image](https://user-images.githubusercontent.com/70241561/118368493-a7273680-b578-11eb-89ea-6feecc8b6432.png)
+
 
 
 
