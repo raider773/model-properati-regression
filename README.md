@@ -69,6 +69,8 @@ Next i did some feature importance with a Random Forest and an Extra Trees. I tr
 
 ![image](https://user-images.githubusercontent.com/70241561/118369428-b5298700-b579-11eb-9d5c-eb08a93eaf94.png)
 
+I also added quite a few features gathering information form teh description, as well as adding clusters as a new variable. I used k-means with two clsuters to group the observations, and then used those clsuter to see if the prediction would improve. I selected 2 clusters after analysing the square distances,silhouette and calinski_harabasz score, as well as doing some hierarchical clustering
+
 
 
 
