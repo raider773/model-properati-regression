@@ -74,7 +74,7 @@ I also added quite a few features gathering information form the description, as
 -------------
 
 After training some models, namely a Lasso, Random Forest, ADABoost, XGBOOST and an ANN, I choose the random forest, both because of scores and because of simplicity.\
-Then i analysed the selected model to see what influence a prediction the most. 
+Then i analysed the selected model to see what influence a prediction the most using the lime library 
 
 ![image](https://user-images.githubusercontent.com/70241561/118369654-9081df00-b57a-11eb-8875-7bb167493628.png)
 
