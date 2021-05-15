@@ -61,6 +61,26 @@ Puerto madero is the most expensive one, so thats a place im not gonna move in.
 This chart represents the most frecuent words in descriptions of properties. There are quite intresting things here.For example, Al frente("front") means the apartment faces the street. We can deduct most apartments face the street and not the other way. Iluminated is something that appears quite often, maybe because it makes an impact in buyers.
 Things like air conditioning, hot water or suitable professional are also somewhat frecuent. We can see how descriptions are written in this city and also what people want to see more when buying houses in Capital Federal
 
+<p>&nbsp;</p> 
+
+Next i did some feature importance with a Random Forest and an Extra Trees. I trained them without the place name. As i already knew the place name was a big factor on predicting the prices, i wanted to know how the other variables affect the prediction. We can see surface, rooms and suite are quite important. Also the len of the description aparently is also important, but i will not use it in the final model since thats not concrete data.
+
+![image](https://user-images.githubusercontent.com/70241561/118369428-b5298700-b579-11eb-9d5c-eb08a93eaf94.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
