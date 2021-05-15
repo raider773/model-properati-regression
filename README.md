@@ -44,8 +44,8 @@ I also filled lots of nulls based on other columns, as well as using regex to ge
  
 ![image](https://user-images.githubusercontent.com/70241561/118368493-a7273680-b578-11eb-89ea-6feecc8b6432.png)  
 
-We can see the distribution of my target variable here. There is a pretty notorious outlier. I'll use trees as a model so it doesn't affect the training that much.\
-Also the distribution is a gaussean, more or less, so thats a positive point for me.
+We can see the distribution of my target variable here. There is a pretty notorious outlier. I'll use trees as a model so it doesn't affect the training that much.
+Also the distribution is a gaussean, more or less.
 
 
 
