@@ -1,2 +1,2 @@
-# Properati_Prices
+# Properati Dataset
 Predicting Houses Prices
