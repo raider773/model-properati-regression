@@ -22,7 +22,7 @@ The project is divided into five notebooks :
 The percentage of nulls was great. I had to drop a lot of columns due to nulls or not giving any information.
 
 
-I also filled lots of nulls based on other columns, as well as using regex to get information from the description. <br />
+I also filled lots of nulls based on other columns, as well as using regex to get information from the description. <pre>
 
 
 
