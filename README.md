@@ -11,14 +11,11 @@ The project is divided into five notebooks :
 - The second notebook is the analysis of the data. I made some charts that i think represent the data well.
 - In the third notebook i divided the observations into clusters and add this clusters into features, and then trained different models.
 - In the fourth notebook i created a Flask API to implement my model. The api transforms de data to fit my model and then returns the price prediction.
-- The last notebook is just the the test for the API, making requests with different features and getting the prediction.
+- The last notebook is just the the test for the API, making requests with different features and getting the prediction.\
 
 
-<img align="left" src="https://user-images.githubusercontent.com/70241561/118366162-f4ee6f80-b575-11eb-91a1-d4c935805c53.png"> \
-\
-\
-\
-\
+<img align="left" src="https://user-images.githubusercontent.com/70241561/118366162-f4ee6f80-b575-11eb-91a1-d4c935805c53.png"> 
+
 
 
 
