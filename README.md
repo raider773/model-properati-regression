@@ -27,7 +27,7 @@ I also filled lots of nulls based on other columns, as well as using regex to ge
 
 
 
-The most notorius charts are density of the price, the price per place name and a worcloud chart of the descriptions. <pre>
+The most notorius charts are density of the price, the price per place name and a worcloud chart of the descriptions. 
 
 
 
