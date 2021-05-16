@@ -6,7 +6,7 @@ This project was part of my final work done for Digital House bootcamp. The only
 
 I've decided to use a dataset of Properati to predict the prices of houses in my city. At the moment of this project i was looking for a new place to live in Capital Federal, Argentina, so i find it quite intresting to do my project regarding this matter. I was curious as of what determines the prices of houses in this city, as well as see how much the price affects other variables, for example the length of the description or the most commong words used in the titles, etc.
 
-Model.rar and properati.rar are the model selected and the original dataset.
+Model_rf.rar and properati.rar are the model selected and the original dataset.
 
 The project is divided into five notebooks :
 - The first notebook, this one, is about preparing the data for further analysis. The dataset has a lot of nulls and outliers, so i tried yo fix thise issues.
