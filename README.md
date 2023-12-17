@@ -9,10 +9,10 @@ I've decided to use a dataset of Properati to predict the prices of houses in my
 Model_rf.rar and properati.rar are the selected model and the original dataset.
 
 The project is divided into five notebooks :
-- The first notebook, this one, is about preparing the data for further analysis. The dataset has a lot of nulls and outliers, so i tried yo fix thise issues.
-- The second notebook is the analysis of the data. I made some charts that i think represent the data well.
-- In the third notebook i divided the observations into clusters and add this clusters into features, and then trained different models.
-- In the fourth notebook i created a Flask API to implement my model. The api transforms de data to fit my model and then returns the price prediction.
+- The first notebook is about preparing the data for further analysis. The dataset has a lot of nulls and outliers, so i tried to fix this issues.
+- The second notebook is the analysis of the data. I made some plots that i think represent the data well.
+- In the third notebook i divided the observations into clusters and add this clusters as features, and then trained different models.
+- In the fourth notebook i created a Flask API to implement my model. The api transforms the data and returns the price prediction.
 - The last notebook is just the the test for the API, making requests with different features and getting the prediction.
 
 <p>&nbsp;</p>
@@ -24,7 +24,7 @@ The project is divided into five notebooks :
 
 
 
-The percentage of nulls was great. I had to drop a lot of columns due to nulls or not giving any information.
+The percentage of nulls was great. I had to drop a lot of columns due to nulls or lacking useful any information.
 
 
 I also filled lots of nulls based on other columns, as well as using regex to get information from the description: 
@@ -41,13 +41,13 @@ I also filled lots of nulls based on other columns, as well as using regex to ge
 
 -------------
 
- The most notorius charts are density of the price, the price per place name and a worcloud chart of the descriptions. 
+ The most notorius charts are density of the price, the price per place name and a wordcloud of the descriptions. 
  
  
 ![image](https://user-images.githubusercontent.com/70241561/118368493-a7273680-b578-11eb-89ea-6feecc8b6432.png)  
 
 We can see the distribution of my target variable here. There is a pretty notorious outlier. I'll use trees as a model so it doesn't affect the training that much.
-Also the distribution is a gaussean, more or less.
+Also the distribution is somewhat gaussean.
 
 <p>&nbsp;</p> 
 
@@ -60,22 +60,22 @@ Puerto madero is the most expensive one, so thats a place im not gonna move in.
 
 ![image](https://user-images.githubusercontent.com/70241561/118369044-3b919900-b579-11eb-8483-12e676efa4e7.png)
 
-This chart represents the most frecuent words in descriptions of properties. There are quite intresting things here.For example, Al frente("front") means the apartment faces the street. We can deduct most apartments face the street and not the other way. Iluminated is something that appears quite often, maybe because it makes an impact in buyers.
-Things like air conditioning, hot water or suitable professional are also somewhat frecuent. We can see how descriptions are written in this city and also what people want to see more when buying houses in Capital Federal
+This chart represents the most frecuent words in descriptions of properties. There are quite intresting things here. For example, Al frente("front") means the apartment faces the street. We can deduct most apartments face the street and not the other way. Lighting is something that appears quite often, maybe because it makes an impact in buyers.
+Things like air conditioning, hot water or suitable professional are also somewhat frecuent. We can see how descriptions are written in this city and also what people want to see more when buying houses in Capital Federal.
 
 <p>&nbsp;</p> 
 
 -------------
 
-Next i did some feature importance with a Random Forest and an Extra Trees. I trained them without the place name. As i already knew the place name was a big factor on predicting the prices, i wanted to know how the other variables affect the prediction. We can see surface, rooms and suite are quite important. Also the len of the description aparently is also important, but i will not use it in the final model since thats not concrete data.
+Next i did some feature importance with a Random Forest and Extra Trees. I trained them without the place name. As i already knew the place name was a big factor on predicting the prices, i wanted to know how the other variables affect the prediction. We can see surface, rooms and suite are quite important. Also the len of the description aparently is also important, but i will not use it in the final model since thats not concrete data.
 
 ![image](https://user-images.githubusercontent.com/70241561/118369428-b5298700-b579-11eb-9d5c-eb08a93eaf94.png)
 
-I also added quite a few features gathering information form the description, as well as adding clusters as a new variable. I used k-means with two clsuters to group the observations, and then used those clsuter to see if the prediction would improve. I selected 2 clusters after analysing the square distances,silhouette and calinski_harabasz score, as well as doing some hierarchical clustering
+I also added quite a few features gathering information form the description, as well as adding clusters as a new variable. I used k-means with two clsuters to group the observations, and then used those clsuter to see if the prediction would improve. I selected 2 clusters after analysing the square distances,silhouette and calinski harabasz score, as well as doing some hierarchical clustering
 
 -------------
 
-After training some models, namely a Lasso, Random Forest, ADABoost, XGBOOST and an ANN, I choose the random forest, both because of scores and because of simplicity.\
+After training some models, namely Lasso, Random Forest, ADABoost, XGBOOST and an ANN, I choose the random forest, both because of scores and because of simplicity.\
 Then i analysed the selected model to see what influence a prediction the most using the lime library 
 
 ![image](https://user-images.githubusercontent.com/70241561/118369654-9081df00-b57a-11eb-8875-7bb167493628.png)
